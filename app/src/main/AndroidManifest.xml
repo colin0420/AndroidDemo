@@ -18,6 +18,8 @@
     </activity>
     <activity android:name=".com.example.news.NewsContentActivity">
     </activity>
+    <activity android:name=".mvp.TestMVPActivity">
+    </activity>
   </application>
 
 </manifest>
