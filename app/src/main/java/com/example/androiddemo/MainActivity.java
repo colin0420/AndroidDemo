@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import com.example.androiddemo.mvp.TestMVPActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override public void onClick(View v) {
                 //NewsContentActivity.actionStart();
+                TestMVPActivity.JumpToTestMVPActivity(MainActivity.this);
             }
         });
     }

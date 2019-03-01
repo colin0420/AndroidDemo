@@ -1,5 +1,7 @@
 package com.example.androiddemo.mvp;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -29,5 +31,10 @@ public class TestMVPActivity extends AppCompatActivity implements TestContract.V
 
     @Override public void showData(String str) {
         textView.setText(str);
+    }
+
+    public static void JumpToTestMVPActivity(Context context){
+        Intent intent = new Intent(context, TestMVPActivity.class);
+        context.startActivity(intent);
     }
 }
