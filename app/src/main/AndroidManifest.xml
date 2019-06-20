@@ -20,6 +20,10 @@
     </activity>
     <activity android:name=".mvp.TestMVPActivity">
     </activity>
+    <activity android:name=".SecondActivity">
+    </activity>
+    <activity android:name=".ThirdActivity">
+    </activity>
   </application>
 
 </manifest>
